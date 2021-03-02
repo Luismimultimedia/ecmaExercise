@@ -144,7 +144,7 @@ function* generador () {
 		yield "hola"
 	}
 	if (true) {
-			yield "mundo"
+		yield "mundo"
 	}
 }
 

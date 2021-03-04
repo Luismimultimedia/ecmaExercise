@@ -67,8 +67,14 @@ let world = "          word"
 console.log(hello.trimEnd())
 console.log(world.trimStart())
 
+//try catch
 try {
     
 } catch {
     console.log(error)
 }
+
+// fromEntries
+let arr = [["name", "luis"], ["lastName", "gonzalez"]]
+
+console.log(Object.fromEntries(arr))
